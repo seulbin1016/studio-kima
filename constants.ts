@@ -16,7 +16,7 @@ export const PROJECTS: Project[] = [
   {
     id: '1',
     title: 'Mutual Shine':
-    category: 'Graphic','Product','Film'
+    category: ['Graphic', 'Product', 'Film'],
     subTitle: 'Brand & Identity',
     year: '2022',
     description: 'A comprehensive branding project for MIDNIGHTWAVE HAUS, focusing on dark aesthetics and fluid typography. The project encompassed logo design, brand guidelines, and visual identity for digital platforms.',
