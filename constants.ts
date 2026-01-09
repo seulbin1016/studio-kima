@@ -7,21 +7,20 @@ export const CATEGORIES: Category[] = [
   'Graphic',
   'Product',
   'Communication',
-  'Advertising',
   'Film',
-  'Web Production',
-  'Art Direction & Production'
+  'Editorial',
+  'Art Direction'
 ];
 
 export const PROJECTS: Project[] = [
   {
     id: '1',
-    title: 'MIDNIGHTWAVE HAUS',
-    category: 'Brand & Identity',
-    subTitle: 'Artist Identity Design',
-    year: '2025',
+    title: 'Mutual Shine',
+    category: 'Graphic', 'Product', 'Film'
+    subTitle: 'Brand & Identity',
+    year: '2022',
     description: 'A comprehensive branding project for MIDNIGHTWAVE HAUS, focusing on dark aesthetics and fluid typography. The project encompassed logo design, brand guidelines, and visual identity for digital platforms.',
-    imageUrl: 'https://picsum.photos/seed/m1/800/600',
+    imageUrl: 'file:///Users/noooniset_1/Downloads/C6C32EFB-DDB7-4DA9-8584-C10859E3CA12.JPG',
     detailImages: [
       'https://picsum.photos/seed/m1d1/1200/1600',
       'https://picsum.photos/seed/m1d2/1200/1600',
@@ -30,7 +29,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: '2',
-    title: 'BABY DONT CRY',
+    title: 'TICKLE',
     category: 'Film',
     subTitle: 'Artist Logo Motion Video',
     year: '2025',
