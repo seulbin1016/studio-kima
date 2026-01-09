@@ -15,7 +15,7 @@ export const CATEGORIES: Category[] = [
 export const PROJECTS: Project[] = [
   {
     id: '1',
-    title: 'Mutual Shine':
+    title: 'Mutual Shine',
     category: ['Graphic', 'Product', 'Film'],
     subTitle: 'Brand & Identity',
     year: '2022',
