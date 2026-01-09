@@ -5,10 +5,9 @@ export type Category =
   | 'Graphic'
   | 'Product'
   | 'Communication'
-  | 'Advertising'
   | 'Film'
-  | 'Web Production'
-  | 'Art Direction & Production';
+  | 'Editorial'
+  | 'Art Direction';
 
 export interface Project {
   id: string;
